@@ -51,6 +51,7 @@ const aliases = Object.keys(unprocessAliases).reduce((obj, alias) => {
 module.exports = aliases;
 ```
 3. Just import the aliases parser and transform the object into the shape your configuration expects
+
 Webpack Example: 
 ```js
 // webpack config
